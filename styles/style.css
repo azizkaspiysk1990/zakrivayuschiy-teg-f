@@ -158,7 +158,6 @@
   font-size: 14px;
   mix-blend-mode: difference;
   color: var(--button-text-color);
-  /* padding: 12.5px 37px 12.5px 37px; */
 }
 
 .button {
