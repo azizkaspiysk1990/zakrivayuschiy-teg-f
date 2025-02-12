@@ -250,7 +250,7 @@
 }
 
 .image-rotate {
-  filter: hue-rotate(-90deg);
+  filter: hue-rotate(-90deg) contrast(2) sepia(1);
 }
 
 @media (width <= 375px) {
