@@ -63,7 +63,7 @@
   font-variation-settings: "wght" var(--wght-title);
   line-height: 21.78px;
   font-size: 18px;
-  padding: 5px 24px 3px 10px;
+  padding: 5px 10px;
 }
 
 .image-wrapper {
@@ -75,7 +75,7 @@
   inline-size: 100%;
   object-fit: cover;
   object-position: center;
-  /* aspect-ratio: 1/1; */
+  aspect-ratio: 1/1;
   border-block-start: 2px solid var(--border-color);
   border-block-end: 2px solid var(--border-color);
 }
@@ -107,7 +107,7 @@
   display: grid;
   position: relative;
   gap: 26px;
-  padding: 24px;
+  padding: 25px;
   line-height: 21px;
   font-size: 18px;
 }
@@ -132,7 +132,7 @@
   outline-offset: -2px;
   appearance: none;
 }
-.like__icon {
+/* .like__icon {
 }
 .heart {
 }
@@ -141,7 +141,7 @@
 .main-body {
 }
 .core {
-}
+} */
 .sparks {
   opacity: 0;
 }
@@ -233,12 +233,20 @@
     flex-direction: column;
   }
 
+  .header {
+    inline-size: 100%;
+  }
+
   .save-floppy {
     inline-size: 28px;
     block-size: 28px;
   }
 
-  .article__card {
+  .card__list {
+    inline-size: 100%;
+  }
+
+  .article__card-text {
     inline-size: 100%;
   }
 }
