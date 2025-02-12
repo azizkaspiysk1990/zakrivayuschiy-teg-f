@@ -187,8 +187,6 @@
   /* mix-blend-mode: difference;
   color: #fff; */
 }
-.button__text {
-}
 
 .dialog {
   padding: 30px;
@@ -225,6 +223,34 @@
   padding-block: 11px;
   background-color: #fff;
   margin-block-start: 30px;
+}
+
+.image-gray {
+  filter: grayscale(0.9);
+}
+
+.image-blur {
+  filter: blur(5px);
+}
+
+.image-sepia {
+  filter: sepia(80%);
+}
+
+.image-brightness {
+  filter: brightness(30%);
+}
+
+.image-invert {
+  filter: invert(0.7);
+}
+
+.image-saturate {
+  filter: saturate(3);
+}
+
+.image-rotate {
+  filter: hue-rotate(-90deg);
 }
 
 @media (width <= 375px) {
