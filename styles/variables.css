@@ -3,14 +3,18 @@
   --main-font: "Inter-Variable", sans-serif;
   --accent-font: "PressStart2P-Regular", sans-serif;
   --wght-title: 700;
+  --font-size-main: 18px;
+  --font-size: 14px;
   --wght: 400;
   --text-shadow: #fff;
   --background-color: #fff;
   --content-size: clamp(23.438rem, 16.2859rem + 30.5157vw, 43.75rem);
   --heart-contour: #000;
   --heart-fill: red;
+  --fill-color: #fff;
   --button-text-color: #fff;
   --border-color: #000;
+  --accent-color: #000;
   --bg-image: repeating-linear-gradient(
       to right,
       #d3d3d3,
