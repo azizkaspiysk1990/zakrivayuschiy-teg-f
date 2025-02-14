@@ -16,7 +16,7 @@
 
   <body class="page">
     <header class="header header__container">
-      <span class="header__title">&lt;/html&gt;</span>
+      <a class="header__title" href="#">&lt;/html&gt;</a>
       <h1 class="header__subtitle">закрывающий тег</h1>
     </header>
 
@@ -26,10 +26,12 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;/Подготовка к учебе&gt;</span>
+          <span class="card-label" aria-hidden="true"
+            >&lt;/Подготовка к учебе&gt;</span
+          >
           <img
             class="article__card-image"
-            src="/images/polina-kuzovkova-VNeXrStz_8g-unsplash.jpg"
+            src="./images/polina-kuzovkova-VNeXrStz_8g-unsplash.jpg"
             loading="lazy"
             alt="Фотография девушки насыпающей порошок в стиральную машину."
           />
@@ -87,10 +89,12 @@
       <article class="article__card">
         <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Очень боязно&gt;</span>
+          <span class="card-label" aria-hidden="true"
+            >&lt;Очень боязно&gt;</span
+          >
           <img
             class="article__card-image filter-gray"
-            src="/images/catsinamman-ge0GRw5H_GA-unsplash.jpg"
+            src="./images/catsinamman-ge0GRw5H_GA-unsplash.jpg"
             loading="lazy"
             alt="Красивый кот смотрит на вас."
           />
@@ -150,10 +154,10 @@
       <article class="article__card">
         <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Я сдал&gt;</span>
+          <span class="card-label" aria-hidden="true">&lt;Я сдал&gt;</span>
           <img
             class="article__card-image filter-blur"
-            src="/images/velos.jpg"
+            src="./images/velos.jpg"
             loading="lazy"
             alt="Велосипедист на вершине скалы."
           />
@@ -211,10 +215,12 @@
       <article class="article__card">
         <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Перфекционизм&gt;</span>
+          <span class="card-label" aria-hidden="true"
+            >&lt;Перфекционизм&gt;</span
+          >
           <img
             class="article__card-image filter-sepia"
-            src="/images/kachok.jpg"
+            src="./images/kachok.jpg"
             loading="lazy"
             alt="Мужчина в фитнесс зале."
           />
@@ -274,10 +280,12 @@
       <article class="article__card">
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Легче не стало&gt;</span>
+          <span class="card-label" aria-hidden="true"
+            >&lt;Легче не стало&gt;</span
+          >
           <img
             class="article__card-image filter-invert"
-            src="/images/baby.jpg"
+            src="./images/baby.jpg"
             loading="lazy"
             alt="Две девушки."
           />
@@ -338,10 +346,10 @@
       <article class="article__card">
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Шок в шоках&gt;</span>
+          <span class="card-label" aria-hidden="true">&lt;Шок в шоках&gt;</span>
           <img
             class="article__card-image filter-brightness"
-            src="/images/market.jpg"
+            src="./images/market.jpg"
             loading="lazy"
             alt="Разнообразие товаров в супермаркете."
           />
@@ -399,10 +407,12 @@
       <article class="article__card">
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Хотелось сдаться&gt;</span>
+          <span class="card-label" aria-hidden="true"
+            >&lt;Хотелось сдаться&gt;</span
+          >
           <img
             class="article__card-image filter-saturate"
-            src="/images/dog.jpg"
+            src="./images/dog.jpg"
             loading="lazy"
             alt="грустный пес."
           />
@@ -462,10 +472,10 @@
       <article class="article__card">
         <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="image-wrapper">
-          <span class="card-label">&lt;Ожидание&gt;</span>
+          <span class="card-label" aria-hidden="true">&lt;Ожидание&gt;</span>
           <img
             class="article__card-image filter-rotate-contrast-sepia"
-            src="/images/samir-vanegas-VJLaufR37XQ-unsplash.jpg"
+            src="./images/samir-vanegas-VJLaufR37XQ-unsplash.jpg"
             loading="lazy"
             alt="Красивая девушка позирует."
           />
@@ -526,37 +536,37 @@
           </button>
         </div>
       </article>
-    </main>
-    <footer class="footer">
-      <button
-        class="button save-button"
-        type="button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg class="save-floppy" viewbox="0 0 21 21">
-          <use href="/svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-      <dialog id="dialog-id" class="dialog">
-        <div class="dialog__content">
-          <svg class="dialog-floppy" viewbox="0 0 21 21">
+      <section>
+        <button
+          class="button save-button"
+          type="button"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
+          <svg class="save-floppy" viewbox="0 0 21 21">
             <use href="/svg/floppy.svg#floppy"></use>
           </svg>
-          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-        </div>
-        <form method="dialog">
-          <button
-            class="button close-button"
-            type="button"
-            onclick="window['dialog-id'].close()"
-          >
-            <span class="button__text">ОК</span>
-          </button>
-        </form>
-      </dialog>
-    </footer>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+        <dialog id="dialog-id" class="dialog">
+          <div class="dialog__content">
+            <svg class="dialog-floppy" viewbox="0 0 21 21">
+              <use href="/svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+          </div>
+          <form method="dialog">
+            <button
+              class="button close-button"
+              type="button"
+              onclick="window['dialog-id'].close()"
+            >
+              <span class="button__text">ок</span>
+            </button>
+          </form>
+        </dialog>
+      </section>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
